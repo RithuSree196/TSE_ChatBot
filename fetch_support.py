@@ -2,10 +2,10 @@ from datetime import datetime, timezone, timedelta
 from azure.cosmos import CosmosClient, exceptions
 
 # Azure Cosmos DB details
-url = "https://cdbazewp-admiral-core.documents.azure.com:443/"
-key = "ZZ5NJmqjAobGMI8w1MHbO4LN4oigpQnM0xwn0q40B9uoHYFqlgRvM6sEhdGv2UxpnJ0nqI1yLRuw2jc5Jx0s4w=="
-database_name = "Admiral"
-container_name = "Support"
+url = "****"
+key = "*****"
+database_name = "****"
+container_name = "****"
 
 # Initialize Cosmos Client and container
 client = CosmosClient(url, credential=key)
